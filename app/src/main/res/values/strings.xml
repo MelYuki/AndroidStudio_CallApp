@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name" translatable="false">Mugiwara no Ichimi</string>
+
+    <string name="valid_username" translatable="false">melvin</string>
+    <string name="valid_password" translatable="false">1234=</string>
+
+    <string name="toast_msg_main_welcome">Welcome %s</string>
+    <string name="toast_no_call_permission" translatable="false">Il est necessaire d\'autoriser l\'application à utiliser le téléphone, si vous désirez effectuer un appel avec celle-ci... Sans cela, il n\'est pas possible que l\'application puisse effecter un appel (et c\'est une sécurité imposé par Android. Merci d\'accepter) !</string>
+
+    <string name="uri_tel">tel: %s</string>
+
+    <string name="img_desc_luffy">Image of Luffy</string>
+    <string name="img_desc_equipage">Image of Luffy\'s crew</string>
+    <string name="img_desc_melvin">Image of Melvin</string>
+    <string name="img_desc_luffy_round">Black image of Luffy</string>
+    <string name="img_desc_zoro">Image of Zoro</string>
+
+    <string name="title_input_username">Username :</string>
+    <string name="title_input_password">Password :</string>
+    <string name="title_info">Informations</string>
+    <string name="title_call">To Call</string>
+    <string name="title_input_numero">Number :</string>
+    <string name="title_btn_call">Call</string>
+
+    <string name="btn_valid">Login</string>
+    <string name="btn_info">Informations</string>
+    <string name="btn_tel">To Call</string>
+
+    <string name="msg_btn_valid">User Valid</string>
+    <string name="msg_btn_not_valid">Not Valid</string>
+    <string name="msg_btn_error">Under Construction</string>
+    <string name="msg_main_unknown_username">Unknown</string>
+
+    <string name="text_info_nom">Name :</string>
+    <string name="text_info_nom_res">Melvin</string>
+    <string name="text_info_surnom">Surname :</string>
+    <string name="text_info_surnom_res">Yukimichi</string>
+    <string name="text_info_origin">Origin :</string>
+    <string name="text_info_origin_res">East Blue</string>
+    <string name="text_info_prime">Prime :</string>
+    <string name="text_info_prime_res" translatable="false">300 000 000 $</string>
+</resources>

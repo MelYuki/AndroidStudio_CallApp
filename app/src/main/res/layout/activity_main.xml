@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/img_equipage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/equipage"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/img_desc_equipage" />
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/luffy_hat">
+
+        <Button
+            android:id="@+id/btn_main_info"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/btn_info"
+            android:textSize="@dimen/btn_text_size"
+            android:textColor="@color/luffy_hairs"
+            android:layout_marginStart="@dimen/btn_margin"
+            android:layout_marginEnd="@dimen/btn_margin"
+            android:layout_marginTop="@dimen/btn_margin"/>
+
+        <Button
+            android:id="@+id/btn_main_tel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/btn_tel"
+            android:textSize="@dimen/btn_text_size"
+            android:textColor="@color/luffy_hairs"
+            android:layout_marginStart="@dimen/btn_margin"
+            android:layout_marginEnd="@dimen/btn_margin"
+            android:layout_marginTop="@dimen/btn_margin"/>
+    </LinearLayout>
+
+
+</LinearLayout>

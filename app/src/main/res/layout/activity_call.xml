@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:background="@color/luffy_hat"
+    tools:context=".CallActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/luffy_round"
+        android:layout_marginBottom="25dp"
+        android:contentDescription="@string/img_desc_luffy_round" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_call"
+        android:textSize="@dimen/title_size"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/btn_height">
+
+        <TextView
+            android:id="@+id/input_info_numero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_input_numero"
+            android:textSize="@dimen/input_text_size"
+            android:labelFor="@id/et_info_numero"/>
+
+        <EditText
+            android:id="@+id/et_info_numero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:imeOptions="actionDone"
+            android:textColor="@color/luffy_scar"
+            android:layout_marginBottom="@dimen/et_margin_bottom"/>
+
+        <Button
+            android:id="@+id/btn_call"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/title_btn_call"
+            android:textSize="@dimen/btn_text_size"
+            android:textColor="@color/luffy_hairs"
+            android:layout_marginTop="@dimen/btn_margin"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/zoro"
+        android:contentDescription="@string/img_desc_zoro" />
+
+</LinearLayout>

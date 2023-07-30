@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="img_desc_luffy">Image de Luffy</string>
+    <string name="img_desc_equipage">Image de l\'équipage de Luffy</string>
+    <string name="img_desc_melvin">Image de Melvin</string>
+    <string name="img_desc_luffy_round">Image noire de Luffy</string>
+    <string name="img_desc_zoro">Image de Zoro</string>
+
+    <string name="title_input_username">Nom d\'utilisateur :</string>
+    <string name="title_input_password">Mot de passe :</string>
+    <string name="title_info">Informations</string>
+    <string name="title_call">Téléphoner</string>
+    <string name="title_input_numero">Numéro :</string>
+    <string name="title_btn_call">Appeler</string>
+
+    <string name="btn_info">Informations</string>
+    <string name="btn_tel">Téléphoner</string>
+    <string name="btn_valid">Valider</string>
+
+    <string name="toast_msg_main_welcome">Bienvenue %s</string>
+    <string name="toast_no_call_permission" translatable="false">Il est necessaire d\'autoriser l\'application à utiliser le téléphone, si vous désirez effectuer un appel avec celle-ci... Sans cela, il n\'est pas possible que l\'application puisse effecter un appel (et c\'est une sécurité imposé par Android. Merci d\'accepter) !</string>
+
+    <string name="uri_tel">tel: %s</string>
+
+    <string name="msg_btn_valid">Utilisateur validé</string>
+    <string name="msg_btn_not_valid">Utilisateur invalide</string>
+    <string name="msg_btn_error">En construction</string>
+    <string name="msg_main_unknown_username">Inconnu</string>
+
+    <string name="text_info_prime">Prime :</string>
+    <string name="text_info_origin_res">East Blue</string>
+    <string name="text_info_origin">Origine :</string>
+    <string name="text_info_surnom_res">Yukimichi</string>
+    <string name="text_info_surnom">Surnom :</string>
+    <string name="text_info_nom_res">Melvin</string>
+    <string name="text_info_nom">Nom :</string>
+</resources>

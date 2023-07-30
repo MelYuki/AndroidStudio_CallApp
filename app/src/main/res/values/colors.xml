@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="luffy_hairs">#0F1819</color>
+    <color name="luffy_eye">#F3F1F2</color>
+    <color name="luffy_suit">#A0272E</color>
+    <color name="luffy_skin">#ECC29C</color>
+    <color name="luffy_hat">#E2B869</color>
+    <color name="luffy_scar">#D69C98</color>
+</resources>
